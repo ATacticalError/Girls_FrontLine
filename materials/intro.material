@@ -1,0 +1,12 @@
+material SplashBackground {
+	receive_shadows off	
+	technique {
+		pass {
+			fog_override true
+			texture_unit {
+				texture vignette.png 2d 0
+			}
+		} 
+	}
+}
+

@@ -1,0 +1,4 @@
+<vehicle>
+	<tag name="vehicle" />
+	<control max_limiter_speed="8.0" />  
+</vehicle>

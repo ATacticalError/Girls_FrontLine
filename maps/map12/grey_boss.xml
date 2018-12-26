@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<faction name="G &amp; K P.M.C." color="0.9 0.6 0.0" firstnames_file="gk_class.name" lastnames_file="gk_serial.name" chat_icon_filename="gk_chat_soldier.png" chat_icon_commander_filename="gk_chat_commander.png" campaign_completion_icon_filename="campaign_win_0.png">
+	<!-- <rank filename="standard_rank.xml"> -->
+
+	<rank xp="0.0" name="2 Star T-Doll">
+		<hud_icon filename="gk_2star.png" />
+	</rank>
+	<rank xp="1.0" name="3 Star T-Doll">
+		<hud_icon filename="gk_3star.png" />
+	</rank>
+	<rank xp="3.0" name="4 Star T-Doll">
+		<hud_icon filename="gk_4star.png" />
+	</rank>
+	<rank xp="10.0" name="5 Star T-Doll">
+		<hud_icon filename="gk_5star.png" />
+	</rank>
+
+
+	<!-- default group -->
+
+
+	<soldier name="default" spawn_score="0.0">
+		<!-- <character filename="gk_loli.character" /> -->
+		<character filename="default.character" />
+		<character>
+			<sound key="death" fileref="gs_m14_b.wav" volume="1.55" />
+			<sound key="death" fileref="gs_m4 sopmod ii_b.wav" volume="1.55" />
+			<sound key="death" fileref="gs_m4a1_b.wav" volume="1.55" />
+		</character>
+
+		<ai filename="default.ai" />
+
+		<!-- <model filename="gs_fnfnc.xml" /> -->
+		<models file="gk.models" />
+
+
+		<resources file="common.resources" />
+		<resources file="gk_player.resources" />
+
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="0.4" />
+			<item_class_existence class="carry_item" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="0" probability="0.07" />
+		</item_class_existence_config>
+		<attribute_config class="rp">
+			<attribute weight="0.3" min="80.0" max="300.0" />
+			<attribute weight="0.7" min="0.0" max="0.0" />
+		</attribute_config>
+			<attribute_config class="xp">
+			<attribute weight="1.0" min="1.0" max="1.05" />
+		</attribute_config>
+
+	</soldier>
+
+	<soldier name="normal_tactic_form" spawn_score="0.0">
+		<character filename="default.character" />
+		<ai filename="default.ai" />
+
+		<model filename="black_ops.xml" />
+		<models file="gk.models" />
+
+		<resources file="common.resources" />
+		<resources file="gk_player.resources" />
+
+		<resources>
+			<weapon key="SG-1.weapon" />
+		</resources>
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="0.4" />
+			<item_class_existence class="carry_item" slot="1" probability="1" />
+			<item_class_existence class="carry_item" slot="0" probability="0.07" />
+		</item_class_existence_config>
+		<attribute_config class="rp">
+			<attribute weight="0.3" min="80.0" max="300.0" />
+			<attribute weight="0.7" min="0.0" max="0.0" />
+		</attribute_config>
+			<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="0.05" />
+		</attribute_config>
+
+	</soldier>
+
+
+
+	<soldier name="advanced_tactic_form" spawn_score="0.0">
+		<character filename="default.character" />
+
+		<models file="gk.models" />
+
+		<ai filename="default.ai" />
+		<resources file="common.resources" />
+		<resources file="gk_ai.resources" />
+
+		<item_class_existence_config>
+			<item_class_existence class="weapon" slot="1" probability="0.9" />
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.07" />
+		</item_class_existence_config>
+		<attribute_config class="rp">
+			<attribute weight="0.3" min="80.0" max="300.0" />
+			<attribute weight="0.7" min="0.0" max="0.0" />
+		</attribute_config>
+			<attribute_config class="xp">
+			<attribute weight="1.0" min="1.0" max="10.05" />
+		</attribute_config>
+
+	</soldier>
+
+	<soldier name="template_AR" firstnames_file="IOP-AR.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="advanced_tactic_form" />
+	<soldier name="template_HG" firstnames_file="IOP-HG.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="advanced_tactic_form" > 
+		<attribute_config class="rp">
+			<attribute weight="10" min="1000.0" max="2300.0" />
+		</attribute_config>
+			<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="1.05" />
+		</attribute_config>
+	</soldier>
+	<soldier name="template_MG" firstnames_file="IOP-MG.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="advanced_tactic_form" > 
+		<attribute_config class="rp">
+			<attribute weight="10" min="1.0" max="300.0" />
+		</attribute_config>
+		<attribute_config class="xp">
+			<attribute weight="9999999.0" min="10" max="50.05" />
+		</attribute_config>
+	</soldier>
+	<soldier name="template_RF" firstnames_file="IOP-RF.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="advanced_tactic_form" />
+	<soldier name="template_SG" firstnames_file="IOP-SG.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="advanced_tactic_form" >
+		<attribute_config class="rp">
+			<attribute weight="10" min="1.0" max="300.0" />
+		</attribute_config>
+			<attribute_config class="xp">
+			<attribute weight="1.0" min="10" max="50.05" />
+		</attribute_config>
+	</soldier>
+	<soldier name="template_SMG" firstnames_file="IOP-SMG.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="advanced_tactic_form" />
+	<soldier name="template_16LAB-AR" firstnames_file="16LAB-AR.name" lastnames_file="gk_serial.name" spawn_score="0.0" copy_from="advanced_tactic_form" />
+
+
+	<soldier name="gs_98k" spawn_score="1.0" copy_from="template_AR" >
+		<model filename="gs_ak12.xml" />
+		<character>
+			<sound key="death" fileref="gs_98k_b.wav" volume="1.55" />
+		</character>
+		<resources >
+			<weapon key="gw_98k.weapon" />  
+			<carry_item key="98k" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_ak12" spawn_score="1.0" copy_from="template_AR" >
+		<model filename="gs_ak12.xml" />
+		<character>
+			<!-- <sound key="death" fileref="gs_ak12_b.wav" volume="1.55" /> -->
+		</character>
+		<resources >
+			<weapon key="gw_ak12.weapon" />  
+			<carry_item key="ak12" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_ar15" spawn_score="1.0" copy_from="template_16LAB-AR">
+		<model filename="gs_ar15.xml" />
+		<character>
+			<sound key="death" fileref="gs_ar15_b.wav" volume="1.55" />
+		</character>
+		<resources>
+			<weapon key="gw_ar15.weapon" />  
+			<carry_item key="ar15" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_an94" spawn_score="1.0" copy_from="template_AR">
+		<model filename="gs_an94.xml" />
+		<character>
+			<!-- <sound key="death" fileref="gs_an94_b.wav" volume="1.55" /> -->
+		</character>
+		<resources>
+			<weapon key="gw_an94.weapon" />  
+			<carry_item key="an94" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_fnfnc" spawn_score="1.0" copy_from="template_AR">
+		<model filename="gs_fnfnc.xml" />
+		<character file="gk_loli.character">
+			<sound key="death" fileref="gs_fnfnc_b.wav" volume="1.55" />
+		</character>
+		<resources>
+			<weapon key="gw_fnfnc.weapon" />  
+			<carry_item key="fnfnc" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_g11" spawn_score="1.0" copy_from="template_AR">
+		<model filename="gs_g11.xml" />
+		<character file="gk_loli.character">
+			<sound key="death" fileref="gs_g11_b.wav" volume="1.55" />
+		</character>
+		<resources>
+			<weapon key="gw_g11.weapon" />  
+			<carry_item key="g11" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_hk416" spawn_score="1.0" copy_from="template_AR">
+		<model filename="gs_hk416.xml" />
+		<character>
+			<sound key="death" fileref="gs_hk416_b.wav" volume="1.55" />
+		</character>
+		<resources>
+			<weapon key="gw_hk416.weapon" />  
+			<carry_item key="hk416" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_m14" spawn_score="1.0" copy_from="template_RF">
+		<model filename="gs_m14.xml" />
+		<character >
+			<sound key="death" fileref="gs_m14_b.wav" volume="1.55" />
+		</character>
+		<resources>
+			<weapon key="gw_m14.weapon" />  
+			<carry_item key="m14" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_m16a1" spawn_score="1.0" copy_from="template_16LAB-AR">
+		<model filename="gs_m16a1.xml" />
+		<character>
+			<sound key="death" fileref="gs_m16a1_b.wav" volume="1.55" />
+		</character>
+		<resources>
+			<weapon key="gw_m16a1.weapon" />  
+			<carry_item key="m16a1" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_m1873" spawn_score="1.0" copy_from="template_HG">
+		<model filename="gs_m1873.xml" />
+		<character file="gk_loli.character">
+			<sound key="death" fileref="gs_m1873_b.wav" volume="1.55" />
+		</character>
+		<resources>
+			<weapon key="gw_m1873.weapon" />  
+			<carry_item key="m1873" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_m2hb" spawn_score="1.0" copy_from="template_MG">
+		<model filename="gs_m2hb.xml" />
+		<character >
+			<sound key="death" fileref="gs_m2hb_b.wav" volume="1.55" />
+		</character>
+		<resources>
+			<weapon key="gw_m2hb.weapon" />  
+			<carry_item key="m2hb" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_m4 sopmod ii" spawn_score="1.0" copy_from="template_16LAB-AR">
+		<model filename="gs_m4 sopmod ii.xml" />
+		<character>
+			<sound key="death" fileref="gs_m4 sopmod ii_b.wav" volume="1.55" />
+		</character>
+		<resources>
+			<weapon key="gw_m4 sopmod ii.weapon" />  
+			<carry_item key="m4 sopmod ii" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_m4a1" spawn_score="1.0" copy_from="template_16LAB-AR">
+		<model filename="gs_m4a1.xml" />
+		<character>
+			<sound key="death" fileref="gs_m4a1_b.wav" volume="1.55" />
+		</character>
+		<resources>
+			<weapon key="gw_m4a1.weapon" />  
+			<carry_item key="m4a1" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_m9" spawn_score="1.0" copy_from="template_HG">
+		<model filename="gs_m9.xml" />
+		<character file="gk_loli.character">
+			<sound key="death" fileref="gs_m9_b.wav" volume="1.55" />
+		</character>
+		<resources>
+			<weapon key="gw_m9.weapon" />  
+			<carry_item key="m9" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_m99" spawn_score="1.0" copy_from="template_RF">
+		<model filename="gs_m99.xml" />
+		<character file="gk_loli.character">
+			<sound key="death" fileref="gs_m99_b.wav" volume="1.55" />
+		</character>
+		<resources>
+			<weapon key="gw_m99.weapon" />  
+			<carry_item key="m99" enabled="1" />
+		</resources>
+	</soldier>
+
+
+	<soldier name="gs_spas12" spawn_score="0.2" copy_from="template_SG">
+		<model filename="gs_spas12.xml" />
+		<character>
+			<sound key="death" fileref="gs_spas12_b.wav" volume="1.55" />
+		</character>
+		<resources>
+			<weapon key="gw_spas12.weapon" />  
+			<carry_item key="spas12" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_ump45" spawn_score="0.2" copy_from="template_SMG">
+		<model filename="gs_ump45.xml" />
+		<character>
+			<sound key="death" fileref="gs_ump45_b.wav" volume="1.55" />
+		</character>
+		<resources>
+			<weapon key="gw_ump45.weapon" />  
+			<carry_item key="ump45" enabled="1" />
+		</resources>
+	</soldier>
+
+	<soldier name="gs_ump9" spawn_score="0.2" copy_from="template_SMG">
+		<model filename="gs_ump9.xml" />
+		<character>
+			<sound key="death" fileref="gs_ump9_b.wav" volume="1.55" />
+		</character>
+		<resources>
+			<weapon key="gw_ump9.weapon" />  
+			<carry_item key="ump9" enabled="1" />
+		</resources>
+	</soldier>
+
+
+	<soldier name="prisoner" spawn_score="0.0">
+		<character filename="default_male.character" />
+		<ai filename="default.ai" />
+		<model filename="soldier_prison.xml" />
+
+		<resources file="common.resources" />
+		<resources file="green_primaries.resources" />
+		<resources file="green_secondaries.resources" />
+		<resources file="green_default.resources" />
+
+		<item_class_existence_config>
+			<!-- secondaries -->
+			<item_class_existence class="weapon" slot="1" probability="0.4" />
+			<!-- wearables -->
+			<item_class_existence class="carry_item" slot="1" probability="0.0" />
+			<!-- backpack -->
+			<item_class_existence class="carry_item" slot="0" probability="0.03" />
+		</item_class_existence_config>
+
+		<attribute_config class="rp">
+			<attribute weight="0.3" min="80.0" max="300.0" />
+			<attribute weight="0.7" min="0.0" max="0.0" />
+		</attribute_config>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="0.45" />
+		</attribute_config>
+	</soldier>
+
+</faction>

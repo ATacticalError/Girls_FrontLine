@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+	<carry_item file="whiskey_bottle.carry_item" />
+	<carry_item file="cigarettes.carry_item" />
+	
+	<carry_item file="gamingdevice.carry_item" />
+	<carry_item file="gem.carry_item" />
+	<carry_item file="painting.carry_item" />
+	<carry_item file="horny_magazine.carry_item" />
+	<carry_item file="comic_book.carry_item" />
+	<carry_item file="rwr_handbook.carry_item" />
+	<carry_item file="oscar_statue.carry_item" />
+	
+
+	<carry_item file="cigars.carry_item" />
+	<carry_item file="beer_can.carry_item" />
+	<carry_item file="lighter.carry_item" />   
+	<carry_item file="steroids.carry_item" />  
+	<carry_item file="teddy.carry_item" />      
+
+	<carry_item file="bible.carry_item" /> 
+	<carry_item file="koran.carry_item" /> 
+	<carry_item file="chewing_gum.carry_item" />
+	<carry_item file="bizarre_rubber_bullet.carry_item" />
+	<carry_item file="chocolate.carry_item" />
+	<carry_item file="energy_drink.carry_item" />
+	<carry_item file="fancy_sunglasses.carry_item" />
+	<carry_item file="radio.carry_item" />
+	<carry_item file="razor.carry_item" />   
+	<carry_item file="sheaths.carry_item" />
+	<carry_item file="sheaths_xxl.carry_item" />  
+	<carry_item file="sunglasses.carry_item" /> 
+	<carry_item file="ipoo_player_blue.carry_item" /> 
+	<carry_item file="ipoo_player_red.carry_item" />
+	<carry_item file="ipoo_player_white.carry_item" />     
+	<carry_item file="ipoo_player_silver.carry_item" />
+	<carry_item file="ipoo_player_yellow.carry_item" />
+	<carry_item file="ipoo_player_green.carry_item" />
+	<carry_item file="ipoo_player_pink.carry_item" />   
+	<carry_item file="playing_cards.carry_item" />
+	<carry_item file="underpants.carry_item" /> 
+  	<carry_item file="kamasutra.carry_item" /> 
+  	<carry_item file="cd.carry_item" /> 
+  	<carry_item file="pickashoe.carry_item" /> 
+  	
+	<carry_item file="costume_werewolf.carry_item" />
+	<carry_item file="costume_clown.carry_item" />
+	<carry_item file="costume_santa.carry_item" />
+	<carry_item file="costume_lizard.carry_item" />
+	<carry_item file="costume_underpants.carry_item"/>   
+  	
+	<carry_item file="vest1.carry_item" />     
+  	<carry_item file="vest2.carry_item" /> 
+  	<carry_item file="vest3.carry_item" />
+	<carry_item file="vest_blackops.carry_item" />	
+	<carry_item file="eodvest.carry_item" /> 
+	<carry_item file="camouflage_suit.carry_item" />
+
+	<carry_item file="laptop.carry_item" />
+
+	<carry_item file="gift_box_1.carry_item" />  
+	<carry_item file="gift_box_2.carry_item" />
+	<carry_item file="gift_box_3.carry_item" />    
+	<carry_item file="gift_box_community_1.carry_item" /> 
+	<carry_item file="gift_box_community_2.carry_item" /> 
+
+
+	<carry_item file="dollars.carry_item" />
+	<carry_item file="dollars_300.carry_item" /> 
+  	<carry_item file="gold_bar.carry_item" />
+
+
+
+	<carry_item file="98k.carry_item" /> 
+	<carry_item file="ak12.carry_item" /> 
+	<carry_item file="an94.carry_item" /> 
+	<carry_item file="ar15.carry_item" /> 
+	<carry_item file="fnfnc.carry_item" /> 
+	<carry_item file="g11.carry_item" /> 
+	<carry_item file="hk416.carry_item" />   
+	<carry_item file="m14.carry_item" />
+	<carry_item file="m16a1.carry_item" /> 
+	<carry_item file="m1873.carry_item" /> 
+	<carry_item file="m2hb.carry_item" /> 
+	<carry_item file="m4 sopmod ii.carry_item" />      
+	<carry_item file="m4a1.carry_item" /> 
+	<carry_item file="m9.carry_item" /> 
+	<carry_item file="m99.carry_item" /> 
+	<carry_item file="mg5.carry_item" /> 
+	<carry_item file="spas12.carry_item" /> 
+	<carry_item file="ump45.carry_item" /> 
+	<carry_item file="ump9.carry_item" /> 
+	
+<!-- 	<carry_item file="m1918.carry_item" />  -->
+	<carry_item file="9a91.carry_item" /> 
+	<carry_item file="95type.carry_item" /> 
+	<carry_item file="97type.carry_item" /> 
+	<carry_item file="aa12.carry_item" /> 
+	<carry_item file="c96.carry_item" /> 
+	<carry_item file="fn57.carry_item" /> 
+	<carry_item file="m82a1.carry_item" /> 
+	<carry_item file="m1895.carry_item" /> 
+	<carry_item file="m1895mod.carry_item" /> 
+	<carry_item file="m1911.carry_item" /> 
+	<carry_item file="m1911mod.carry_item" /> 
+	<carry_item file="mp446.carry_item" /> 
+	<carry_item file="mp446mod.carry_item" /> 
+	<carry_item file="negev.carry_item" /> 
+	<carry_item file="p7.carry_item" /> 
+	<carry_item file="p226.carry_item" /> 
+	<carry_item file="pkp.carry_item" /> 
+	<carry_item file="type100.carry_item" /> 
+	<carry_item file="usas12.carry_item" /> 
+	<carry_item file="wa2000.carry_item" /> 
+	<carry_item file="mp5.carry_item" /> 
+	<carry_item file="mp40.carry_item" /> 
+
+	<carry_item file="9a91_1302.carry_item" /> 
+	<carry_item file="fn57_1109.carry_item" /> 
+	<carry_item file="fn57_1902.carry_item" /> 
+	<carry_item file="g11_9.carry_item" /> 
+	<carry_item file="m14_303.carry_item" />
+	<carry_item file="m1873_301.carry_item" /> 
+	<carry_item file="m99_1701.carry_item" /> 
+	<carry_item file="mp40_902.carry_item" /> 
+	<carry_item file="mp446_103.carry_item" /> 
+	<carry_item file="mp446_402.carry_item" /> 
+	<carry_item file="mp5_1205.carry_item" /> 
+	<carry_item file="mp5_1903.carry_item" /> 
+	<carry_item file="mp5_3.carry_item" /> 
+	<carry_item file="negev_904.carry_item" /> 
+	<carry_item file="p7_1404.carry_item" /> 
+	<carry_item file="p7_606.carry_item" /> 
+	<carry_item file="ump45_410.carry_item" /> 
+	<carry_item file="ump9_409.carry_item" /> 
+	<carry_item file="usas12_2704.carry_item" /> 
+	<carry_item file="wa2000_1108.carry_item" /> 
+	<carry_item file="wa2000_306.carry_item" /> 
+	<carry_item file="wa2000_6.carry_item" /> 
+
+</carry_items>
+
+
+
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+    <carry_item filename="base_light_vest.carry_item" key="m1895" name="Nagant Revolver 1/1" slot="1" transform_on_consume="m1895_1" time_to_live_out_in_the_open="120.0">
+        <hud_icon filename="m1895.png" />
+        <inventory encumbrance="4" price="10" />
+        <model mesh_filename="vest.xml" />
+        <commonness value="1.0" in_stock="1" can_respawn_with="1" />
+
+
+    </carry_item>
+
+    <carry_item filename="base_none.carry_item" key="m1895_1" name="Nagant Revolver 0/1" slot="1" time_to_live_out_in_the_open="120.0">
+        <hud_icon filename="m1895_d.png" />
+        <inventory encumbrance="4" price="1" />
+        <model mesh_filename="vest.xml" />
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+
+    </carry_item>
+</carry_items>

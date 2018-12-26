@@ -1,0 +1,11 @@
+# RWR:
+
+*.pre
+*.bk
+*.un
+*.xlsx
+*.xls
+*.md
+*.nb
+
+preparing

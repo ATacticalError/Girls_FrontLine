@@ -1,0 +1,72 @@
+material laser_red {
+	receive_shadows off
+	technique {
+		pass {
+			lighting off
+			fog_override false
+
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit {
+				// anim_texture laser_red.png laser_green.png laser_blue.png laser_orange.png 1.0
+				texture laser_red.png
+			}
+		}
+	}
+}
+
+material laser_green {
+	receive_shadows off
+	technique {
+		pass {
+			lighting off
+			fog_override false
+
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit {
+				texture laser_green.png
+			}
+		}
+	}
+}
+
+material laser_blue {
+	receive_shadows off
+	technique {
+		pass {
+			lighting off
+			fog_override false
+
+			depth_write off
+			scene_blend add
+
+			texture_unit {
+				texture laser_blue.png
+			}
+		}
+	}
+
+}
+
+
+
+material laser_orange {
+	receive_shadows off
+	technique {
+		pass {
+			lighting off
+			fog_override false
+
+			depth_write off
+			scene_blend add
+			texture_unit {
+				texture laser_orange.png
+			}
+		}
+	}
+}
+
+

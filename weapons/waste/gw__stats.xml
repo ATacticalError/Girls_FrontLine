@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<weapons>
+	<weapon file="98k">
+		<specification name="Kar98k"/>
+		<commonness/>
+		<inventory/>
+	</weapon>
+	<weapon file="ak12">
+		<specification name="AK-12"/>
+		<commonness/>
+		<inventory/>
+	</weapon>
+	<weapon file="an94">
+		<specification name="AN-94" magazine_size="40"/>
+		<commonness/>
+		<inventory/>
+	</weapon>
+	<weapon file="ar15">
+		<specification name="AR-15"/>
+		<commonness/>
+		<inventory/>
+	</weapon>
+	<weapon file="fnfnc">
+		<specification name="FNC"/>
+		<commonness/>
+		<inventory/>
+	</weapon>
+	<weapon file="g11">
+		<specification name="G11"/>
+		<commonness/>
+		<inventory/>
+	</weapon>
+	<weapon file="hk416">
+		<specification name="HK416"/>
+		<commonness/>
+		<inventory/>
+	</weapon>
+	<weapon file="m14">
+		<specification name="M14" magazine_size="20"/>
+		<commonness/>
+		<inventory/>
+	</weapon>
+	<weapon file="m16a1">
+		<specification name="M16A1"/>
+		<commonness/>
+		<inventory/>
+	</weapon>
+	<weapon file="m1873">
+		<specification name="Colt Rovolver" magazine_size="6"/>
+		<commonness/>
+		<inventory/>
+	</weapon>
+	<weapon file="m2hb">
+		<specification name="M2HB"/>
+		<commonness/>
+		<inventory/>
+	</weapon>
+	<weapon file="m4 sopmod ii">
+		<specification name="M4 SOPMOD II"/>
+		<commonness/>
+		<inventory/>
+	</weapon>
+	<weapon file="m4a1">
+		<specification name="M4A1"/>
+		<commonness/>
+		<inventory/>
+	</weapon>
+	<weapon file="m9">
+		<specification name="M9"/>
+		<commonness/>
+		<inventory/>
+	</weapon>
+	<weapon file="m99">
+		<specification name="M99"/>
+		<commonness/>
+		<inventory/>
+	</weapon>
+	<weapon file="mg5">
+		<specification name="MG5"/>
+		<commonness/>
+		<inventory/>
+	</weapon>
+	<weapon file="spas12">
+		<specification name="SPAS-12"/>
+		<commonness/>
+		<inventory/>
+	</weapon>
+	<weapon file="ump45">
+		<specification name="UMP45"/>
+		<commonness/>
+		<inventory/>
+	</weapon>
+	<weapon file="ump9">
+		<specification name="UMP9"/>
+		<commonness/>
+		<inventory/>
+	</weapon>
+</weapons>

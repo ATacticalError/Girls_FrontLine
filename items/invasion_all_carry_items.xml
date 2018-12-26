@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+	<carry_item file="all_carry_items.xml" />
+
+
+<!-- 	<carry_item file="g11_9" ><commonness value="1.0" in_stock="0" can_respawn_with="1" /></carry_item> 
+	<carry_item file="m14_303" ><commonness value="1.0" in_stock="0" can_respawn_with="1" /></carry_item> 
+	<carry_item file="m99_1701" ><commonness value="1.0" in_stock="0" can_respawn_with="1" /></carry_item> 
+	<carry_item file="m1873_301" ><commonness value="1.0" in_stock="0" can_respawn_with="1" /></carry_item> 
+	<carry_item file="ump45_410" ><commonness value="1.0" in_stock="0" can_respawn_with="1" /></carry_item> 
+	<carry_item file="ump9_409" ><commonness value="1.0" in_stock="0" can_respawn_with="1" /></carry_item>  -->
+	
+</carry_items>
+
+
+
+

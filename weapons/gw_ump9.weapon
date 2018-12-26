@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_SMG.weapon" key="gw_ump9.weapon">
+    <specification 
+		retrigger_time="0.0923" 
+		accuracy_factor="0.7" 
+		sustained_fire_grow_step="0.4" 
+		sustained_fire_diminish_rate="0.82" 
+		magazine_size="30" 
+		can_shoot_standing="1" 
+		suppressed="1" 
+		name="UMP9" 
+		class="0" 
+		projectile_speed="100.0" 
+		barrel_offset="0.15" />
+
+
+    <!-- <sound key="fire" fileref="gw_ump9.wav" pitch_variety="0.05" volume="0.5" /> -->
+    <sound key="fire" fileref="GFL_UMP9.wav" pitch_variety="0.05" volume="0.5" />
+    <model filename="gw_ump9.xml" />
+    <hud_icon filename="gw_ump9.png" />
+    <commonness value="0.8" />
+    <inventory encumbrance="10.0" price="15.0" />
+
+    <projectile file="bullet.projectile">
+        <result class="hit"  kill_probability="0.4" kill_decay_start_time="0.38" kill_decay_end_time="0.74" />
+    </projectile>
+
+</weapon>

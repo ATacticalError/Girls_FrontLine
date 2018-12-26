@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_calls="1" clear_carry_items="1">
+	<call key="squad_404.call" />
+	<call key="squad_AR.call" />
+	<call key="squad_defy.call" />
+	<call key="strike_2b14.call" />
+	<call key="strike_air.call" />
+	
+	<weapon key='medikit.weapon' />
+<!-- 	<weapon key="gw_repair.weapon" />
+	<weapon key="gw_repair_em.weapon" />
+	<weapon key="gw_repair_q.weapon" /> -->
+	<weapon key='m79.weapon' enabled="0" />
+	<weapon key='m72_law.weapon' />
+</resources>

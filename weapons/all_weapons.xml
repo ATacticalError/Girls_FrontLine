@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapons>
+	<!-- <weapon file="all_weapons_stats.xml" /> -->
+	<!-- <weapon file="all_vehicle_weapons.xml" /> -->
+
+	<!-- <weapon file="gw__data.xml" /> -->
+	<weapon file="all_weapons_vanilla.xml" />
+
+<!-- USFMC specific -->
+	<weapon file="AR-1.weapon" />
+	<weapon file="carbine.weapon" />  
+	<weapon file="combat_pistol.weapon" />  
+	<weapon file="combat_pistol_silencer.weapon" />
+	<weapon file="GL-1.weapon" />  
+	<weapon file="LR-1.weapon" />
+	<weapon file="M16A4.weapon" />  
+	<weapon file="M229.weapon" />  
+	<weapon file="M548.weapon" />  
+	<weapon file="M68.weapon" />  
+	<weapon file="medikit.weapon" />
+	<weapon file="PW-0.weapon" />
+	<weapon file="SG-1.weapon" />
+	<weapon file="SMG-1.weapon" />
+	<weapon file="SR-1.weapon" />
+	<weapon file="G2A2.weapon" />
+
+
+<!-- G&K specific -->
+	<weapon file="gk_supply.weapon" />
+
+	<weapon file="gw_98k.weapon" />
+	<weapon file="gw_ak12.weapon" />
+	<weapon file="gw_an94.weapon" />
+	<weapon file="gw_ar15.weapon" />
+	<weapon file="gw_fnfnc.weapon" />
+	<weapon file="gw_g11.weapon" />
+	<weapon file="gw_hk416.weapon" />
+	<weapon file="gw_m14.weapon" />
+	<weapon file="gw_m16a1.weapon" />
+	<weapon file="gw_m1873.weapon" />
+	<weapon file="gw_m2hb.weapon" />
+	<weapon file="gw_m4 sopmod ii.weapon" />
+	<weapon file="gw_m4a1.weapon" />
+	<weapon file="gw_m9.weapon" />
+	<weapon file="gw_m99.weapon" />
+	<!-- mg5 -->
+	<weapon file="gw_spas12.weapon" />
+	<weapon file="gw_ump45.weapon" />
+	<weapon file="gw_ump9.weapon" />
+
+	<weapon file="gw_repair.weapon" />
+	<weapon file="gw_repair_em.weapon" />
+	<weapon file="gw_repair_q.weapon" />
+
+	<!-- <weapon file="gw_BGM-71_deploy.weapon" /> -->
+
+
+	<weapon file="apu_m16a4.weapon" />  
+
+<!-- Vehicle specific -->
+	<weapon file='tank_railgun.weapon' /> 
+	<weapon file='tank_coax_mg.weapon' /> 
+	<weapon file='tank_remote_mg.weapon' /> 
+
+
+
+   
+
+</weapons>

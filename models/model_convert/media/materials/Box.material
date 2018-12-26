@@ -1,0 +1,15 @@
+material Box
+  {
+    receive_shadows off
+    technique
+    {
+      pass
+      {
+        lighting on
+        //ambient 0.6 0.6 0.6 1.0 
+        //diffuse 0.4 0.4 0.4 1.0 
+        ambient vertexcolour
+        diffuse vertexcolour
+      } 
+    }
+  }

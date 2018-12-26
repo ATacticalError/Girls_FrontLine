@@ -1,0 +1,18 @@
+material SelectorRectangle
+  {
+    receive_shadows off
+    technique
+    {
+      pass
+      {
+        lighting off
+	fog_override true
+        depth_check off
+        depth_write off
+
+        texture_unit {
+          colour_op_ex source1 src_manual src_current 0 1 0
+        }        
+      } 
+    }
+  }

@@ -1,0 +1,19 @@
+material SplashScreen {
+  receive_shadows off	
+  technique
+  {
+    pass
+    {
+  fog_override true
+  scene_blend alpha_blend
+    texture_unit 
+    {
+      texture splash.png 2d 0
+      tex_address_mode clamp
+      filtering trilinear
+      scale 1 1
+    }
+    } 
+  }
+}
+

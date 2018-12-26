@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_AR.weapon" key="gw_m16a1.weapon">
+    <tag name="assault" />
+    <specification 
+		retrigger_time="0.08" 
+		accuracy_factor="0.9" 
+		sustained_fire_grow_step="0.3" 
+		sustained_fire_diminish_rate="0.72" 
+		magazine_size="30" 
+		can_shoot_standing="1" 
+		suppressed="0" 
+		name="M16A1" 
+		class="0" 
+		projectile_speed="100.0" 
+		barrel_offset="0.5"/>
+
+
+    <sound key="fire" fileref="GFL_M16A1.wav" pitch_variety="0.05" volume="0.75" />
+    <model filename="gw_m16a1.xml" />
+    <hud_icon filename="gw_m16a1.png" />
+    <commonness value="0.8" />
+    <inventory encumbrance="10.0" price="15.0" />
+
+
+
+</weapon>

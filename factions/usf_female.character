@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<character filename="default.character">
+
+	<sound key="death" fileref="usf_death_aus_01.wav" volume="0.75" />
+	<sound key="death" fileref="usf_death_aus_02.wav" volume="0.75" />
+	<sound key="death" fileref="usf_death_aus_03.wav" volume="0.75" />
+
+</character>

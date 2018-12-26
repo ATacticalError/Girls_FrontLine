@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call name="2B14" key="strike_2b14.call"
+      initiation_comment1="Fire mission"
+      initiation_comment2="Requesting 2B14 mortar strike"
+      acknowledge_comment="Roger"
+      acknowledge_time="1.0"
+      launch_comment="Rounds on the way.">
+     
+    <round instances="24"
+           instance_class="grenade"
+           instance_key="artillery_shell.projectile" 
+           instance_spread="15 15 15" 
+           common_spread="20 0 20" 
+           launch_time="5.0"
+           spawn_time="8.0">
+     <sound class="launch" fileref="artillery_barrage_1.wav" volume="1.0" />
+     <sound class="launch" fileref="artillery_barrage_2.wav" volume="1.0" />      
+	   <sound class="spawn" fileref="woosh1.wav" volume="0.2" />
+    </round>
+
+
+    <hud_icon filename="strike_2b14.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="0.4" />
+    <inventory encumbrance="0.0" price="250.0" />
+
+</call>

@@ -1,0 +1,198 @@
+material MenuSystemTopPanel
+  {
+    receive_shadows off
+    technique
+    {
+      pass
+      {
+	fog_override true
+	scene_blend alpha_blend
+        texture_unit {
+          texture menusystem_bar.png
+        }
+      } 
+    }
+  }
+  
+
+material MenuSystemBottomPanel
+  {
+    receive_shadows off
+    technique
+    {
+      pass
+      {
+	fog_override true
+	scene_blend alpha_blend
+        texture_unit {
+          texture menusystem_bar.png
+        }
+      } 
+    }
+  }
+  
+
+material MenuSystemControlBackground
+  {
+    receive_shadows off
+    technique
+    {
+      pass
+      {
+	fog_override true
+	scene_blend alpha_blend
+        texture_unit {
+          texture menusystem_control_background.png
+        }
+      } 
+    }
+  }
+  
+
+material MenuSystemControlFocusBackground
+  {
+    receive_shadows off
+    technique
+    {
+      pass
+      {
+	fog_override true
+	scene_blend alpha_blend
+        texture_unit {
+          texture menusystem_control_focus_background.png
+        }
+      } 
+    }
+  }
+  
+
+material MenuSystemControlSelectedBackground
+  {
+    receive_shadows off
+    technique
+    {
+      pass
+      {
+	fog_override true
+	scene_blend alpha_blend
+        texture_unit {
+          texture menusystem_control_selected_background.png
+        }
+      } 
+    }
+  }
+
+
+material MenuSystemGameTitle
+  {
+    receive_shadows off
+    technique
+    {
+      pass
+      {
+	fog_override true
+	scene_blend alpha_blend
+        texture_unit {
+          texture menu_title.png 2d 0
+          filtering trilinear
+        }
+      } 
+    }
+  }
+
+material MenuSystemColorPickSliderBase
+  {
+    receive_shadows off
+    technique
+    {
+      pass
+      {
+	fog_override true
+        texture_unit {
+          texture red.png
+	  tex_address_mode clamp
+        }
+      } 
+    }
+  }
+
+material MenuSystemColorPickSlider
+  {
+    receive_shadows off
+    technique 0 
+    {
+      pass 0
+      {
+	alpha_rejection greater 128
+	fog_override true
+        texture_unit 0 {
+          texture slider.png
+	  tex_address_mode clamp
+        }
+      } 
+    }
+  }
+
+material MenuSystemColorPickSliderSelected : MenuSystemColorPickSlider
+  {
+    technique 0 
+    {
+      pass 0
+      {
+        texture_unit 0 {
+          texture slider_selected.png
+        }
+      } 
+    }
+  }
+
+material MenuSystemColorPickSliderFocus : MenuSystemColorPickSlider
+  {
+    technique 0 
+    {
+      pass 0
+      {
+        texture_unit 0 {
+          texture slider_focus.png
+        }
+      } 
+    }
+  }
+
+material MenuSystemColorPickDisplay
+  {
+    receive_shadows off
+    technique
+    {
+      pass
+      {
+	fog_override true
+        texture_unit {
+          texture display.png
+        }
+        texture_unit {
+	  colour_op_ex add src_manual src_current 1.0 0.0 0.0 1.0
+          alpha_op_ex source1 src_current src_current
+        }
+      } 
+    }
+  }
+
+
+
+material MenuSystemControlSlider
+  {
+    receive_shadows off
+    technique
+    {
+      pass
+      {
+	fog_override true
+	scene_blend alpha_blend
+        texture_unit {
+          texture menusystem_slider.png
+        }
+      } 
+    }
+  }
+  

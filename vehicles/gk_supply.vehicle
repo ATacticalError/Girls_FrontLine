@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vehicles>
+	<vehicle file="gk_supply_base.vehicle" name="HG Supply Box" key="gk_supply_hg.vehicle"  >
+		<item_container class="armory" offset="0.5 0 0" soldier_group="supply_hg" />
+		<visual class="chassis" mesh_filename="hesco_barrier.mesh" texture_filename="hesco_barrier.png" />
+	</vehicle>
+	<vehicle file="gk_supply_base.vehicle" name="SMG Supply Box" key="gk_supply_smg.vehicle"  >
+		<item_container class="armory" offset="0.5 0 0" soldier_group="supply_smg" />
+		<visual class="chassis" mesh_filename="hesco_barrier.mesh" texture_filename="hesco_barrier.png" />
+	</vehicle>
+	<vehicle file="gk_supply_base.vehicle" name="AR Supply Box" key="gk_supply_ar.vehicle"  >
+		<item_container class="armory" offset="0.5 0 0" soldier_group="supply_ar" />
+		<visual class="chassis" mesh_filename="hesco_barrier.mesh" texture_filename="hesco_barrier.png" />
+	</vehicle>
+	<vehicle file="gk_supply_base.vehicle" name="RF Supply Box" key="gk_supply_rf.vehicle"  >
+		<item_container class="armory" offset="0.5 0 0" soldier_group="supply_rf" />
+		<visual class="chassis" mesh_filename="hesco_barrier.mesh" texture_filename="hesco_barrier.png" />
+	</vehicle>
+	<vehicle file="gk_supply_base.vehicle" name="MG Supply Box" key="gk_supply_mg.vehicle"  >
+		<item_container class="armory" offset="0.5 0 0" soldier_group="supply_mg" />
+		<visual class="chassis" mesh_filename="hesco_barrier.mesh" texture_filename="hesco_barrier.png" />
+	</vehicle>
+	<vehicle file="gk_supply_base.vehicle" name="SG Supply Box" key="gk_supply_sg.vehicle"  >
+		<item_container class="armory" offset="0.5 0 0" soldier_group="supply_sg" />
+		<visual class="chassis" mesh_filename="hesco_barrier.mesh" texture_filename="hesco_barrier.png" />
+	</vehicle>
+</vehicles>

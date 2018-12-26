@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+		<model filename="ussr_gunner.xml" />
+		<model filename="ussr_gunner_1.xml" />
+		<model filename="ussr_gunner_2.xml" />
+		       
+</models>

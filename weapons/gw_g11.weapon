@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_AR.weapon" key="gw_g11.weapon">
+    <tag name="assault" />
+    <specification 
+		retrigger_time="0.0285"
+		last_burst_retrigger_time="0.1304"		
+		accuracy_factor="0.9" 
+		sustained_fire_grow_step="0.3" 
+		sustained_fire_diminish_rate="0.72" 
+		magazine_size="50" 
+		can_shoot_standing="1" 
+		suppressed="0" 
+		name="G11" 
+		class="4"
+		burst_shots="3"
+		projectile_speed="100.0" 
+		barrel_offset="0.25"/>
+
+    <!-- <effect class="muzzle" ref="ejection" /> -->
+    <effect class="muzzle" ref="muzzle_gf" />
+
+    <!-- <sound key="fire" fileref="w_AR-1.wav" pitch_variety="0.05" volume="0.5" />  <!-- SP --> -->
+    
+    <sound key="fire" fileref="GFL_G11.wav" pitch_variety="0.05" volume="0.75" />
+    <model filename="gw_g11.xml" />
+    <hud_icon filename="gw_g11.png" />
+    <commonness value="0.8" />
+    <inventory encumbrance="10.0" price="15.0" />
+
+    <projectile file="bullet.projectile">
+        <result class="hit"  kill_probability="0.862" kill_decay_start_time="0.38" kill_decay_end_time="0.74" />
+    </projectile>
+
+
+</weapon>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rare.weapon" key="gw_m2hb.weapon">
+    <tag name="machine gun" />
+    <specification 
+  retrigger_time="0.1142" 
+  accuracy_factor="0.65" 
+  sustained_fire_grow_step="1.5" 
+  sustained_fire_diminish_rate="0.7" 
+  magazine_size="200" 
+  can_shoot_standing="0" 
+  can_shoot_crouching="0" 
+  can_shoot_prone="1"
+  suppressed="0" 
+  name="M2HB" 
+  class="0" 
+  barrel_offset="0.6"
+  projectile_speed="120.0"
+  projectiles_per_shot="1" />
+
+    <effect class="muzzle" ref="ejection" />
+    <effect class="muzzle" ref="muzzle_gf" />
+
+
+    <animation key="recoil" ref="12" />
+    <animation key="hold_on_wall" ref="1" />
+    <animation state_key="reload" animation_key="reloading, microgun" volume="0.7" />
+
+    <sound key="fire" fileref="GFL_M2HB.wav" pitch_variety="0.05" volume="0.80"/>
+    <sound key="magazine_out" fileref="mg_clip_out.wav" />
+    <sound key="magazine_in" fileref="mg_clip_in.wav" />
+    <sound key="cycle" fileref="rifle_chamber.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="gw_m2hb.xml" />
+
+    <hud_icon filename="gw_m2hb.png" />
+    <commonness value="0.001" can_respawn_with="0" in_stock="1"/>
+    <inventory encumbrance="68.0"  price="500.0" />
+
+    <weak_hand_hold offset="0.4" />
+    <projectile file="bullet.projectile">
+        <result class="blast" radius="0.6" damage="0.2" decal="1" character_state="death" faction_compare="not_equal" />
+    </projectile>
+
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="1" source="rank" source_value="0.8" />
+    <modifier class="speed" value="-0.45" /> 
+</weapon>

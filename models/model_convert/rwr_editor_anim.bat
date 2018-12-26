@@ -1,0 +1,1 @@
+rwr_editor.exe %1 soldier_animations.xml

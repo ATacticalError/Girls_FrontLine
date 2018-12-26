@@ -1,0 +1,238 @@
+//	Ejection
+particle_system					ejection
+{
+	quota						100
+	material					bullet_shell
+	particle_width				0.2
+	particle_height				0.2
+	cull_each					false
+	renderer					billboard
+	billboard_type				point
+
+	// Emitter Type.
+	emitter						Point
+	{
+		colour					1 1 1 1
+		angle					5
+		emission_rate			15
+		position				0.0 0.0 0
+		direction 				1.0 0.0 -10.0
+		velocity				-4.5
+		time_to_live			0.5
+		duration				0.05
+	}
+
+
+	// emitter Point
+	// {
+	// 	angle 15
+	// 	colour 0 0 0 1
+	// 	direction 0 1 0
+	// 	up 0 0 -1
+	// 	emission_rate 20
+	// 	position 0 0 0
+	// 	velocity -5
+	// 	time_to_live 1
+	// 	duration 0.1
+	// }
+
+
+	// // Appearance Time
+	// affector					ColourImage
+	// {
+	// 	image					casing_throw_2.png
+	// }
+
+	// Casing Rotation.
+	affector							Rotator
+	{
+		rotation_speed_range_start		0
+		rotation_speed_range_end		2160
+		rotation_range_start			0
+		rotation_range_end				360
+	}
+
+	// Gravity.
+    affector					LinearForce
+    {
+        force_vector			10 -25 0
+        force_application		add
+    }
+}
+
+material bullet_shell{
+	receive_shadows off
+	technique {
+		pass {
+			lighting off
+			depth_write off
+			scene_blend add
+			fog_override true
+
+			texture_unit {
+				texture bullet_shell_7.62mm.png
+			}
+		}
+	}
+}
+
+
+particle_system muzzle_gf
+{
+	quota	1000
+	material	muzzle_flame
+	particle_width	2.0
+	particle_height	2.0
+	cull_each	false
+	renderer	billboard
+	billboard_type	oriented_self
+	common_direction	0 -1 0
+
+	emitter Box
+	{
+		angle	1
+		colour	1 1 1 1
+		colour_range_start	1 1 1 1
+		colour_range_end	1 1 1 1
+		direction	0 1 0
+		emission_rate	150
+		position	0 0 0
+		velocity	0
+		velocity_min	1
+		velocity_max	8
+		time_to_live	0.08
+		time_to_live_min	0.08
+		time_to_live_max	0.08
+		duration	0.05
+		duration_min	0.05
+		duration_max	0.05
+		width	0.25
+		height	0.25
+		depth	0.2
+	}
+
+	affector ColourInterpolator
+	{
+		colour0	1 1 1 1
+		time0	0.1
+		colour1	1 1 0 1
+		time1	0.3
+		colour2	1 0 0 0
+		time2	0.7
+		colour3	0 0 0 0
+		time3	0.8
+		colour4	0 0 0 0
+		time4	1
+		colour5	0.5 0.5 0.5 0
+		time5	1
+	}
+}
+
+material muzzle_flame {
+        receive_shadows off
+	technique {
+		pass {
+			lighting off
+			depth_write off
+			scene_blend add
+			fog_override true
+
+			texture_unit {
+				texture muzzle_4.png
+			}
+		}
+	}
+}
+
+particle_system FlamePropulsionHuge {
+	quota	500
+	material FlamePropulsion
+	particle_width	5.7
+	particle_height	5.7
+	cull_each	false
+	renderer	billboard
+	billboard_type	point
+
+	emitter Point {
+		angle	40
+		colour	0.4 0.4 0.4 1.0
+		direction	0 1 0
+		emission_rate	40
+		position	0 0.1 0
+		velocity_min	2.0
+		velocity_max	3.5
+		time_to_live	0.15
+		duration	1.0
+	}
+
+	affector Scaler {
+		rate	0.8
+	}
+
+	affector Rotator {
+		rotation_speed_range_start	-30
+		rotation_speed_range_end	30
+		rotation_range_start	0
+		rotation_range_end	360
+	}
+
+	affector LinearForce {
+		force_vector 0 1 0
+		force_application add
+	}
+}
+
+
+particle_system FlameSparkleHuge {
+	quota	500
+	material Ignition
+	particle_width	5.7
+	particle_height	5.7
+	cull_each	false
+	renderer	billboard
+	billboard_type	point
+
+	emitter Point {
+		angle	20
+		colour	1.0 1.0 1.0 1.0
+		direction	0 1 0
+		emission_rate	10
+		position	0 0 0
+		velocity_min	1
+		velocity_max	3
+		time_to_live	0.8
+		duration	1.0
+	}
+
+	affector Scaler {
+		rate	0.1
+	}
+
+	affector Rotator {
+		rotation_speed_range_start	-60
+		rotation_speed_range_end	60
+		rotation_range_start	0
+		rotation_range_end	360
+	}
+
+	affector LinearForce {
+		force_vector 0 5 0
+		force_application add
+	}
+}
+
+material Ignition {
+    receive_shadows off
+	technique {
+		pass {
+			lighting off
+			depth_write off
+			scene_blend add
+			fog_override true
+
+			texture_unit {
+				texture igni_1.png
+			}
+		}
+	}
+}

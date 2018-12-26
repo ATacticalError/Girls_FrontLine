@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_valuable.carry_item" name="T-Doll Contract" key="gift_box_2.carry_item">
+    <hud_icon filename="Item_T-Doll_Contract.png" />
+    <inventory encumbrance="0.5" price="1.0" />
+
+    <model mesh_filename="gi_contract.mesh" texture_filename="gi_contract_tdoll.png" />
+
+    <commonness value="1.0" in_stock="0" />
+</carry_item>

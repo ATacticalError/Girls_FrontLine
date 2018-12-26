@@ -1,0 +1,14 @@
+material VertexColor
+  {
+    receive_shadows off
+    technique
+    {
+      pass
+      {
+        lighting off
+        //ambient 0.6 0.6 0.6 1.0 
+        //diffuse 0.4 0.4 0.4 1.0 
+        diffuse vertexcolour
+      } 
+    }
+  }

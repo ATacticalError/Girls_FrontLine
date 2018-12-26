@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call key="usf_aus.call"
+    name="U.S.F. Australian Light Infantry"
+    initiation_comment1="Reinforcements"
+    initiation_comment2="Requesting Australian Light Infantry"
+    acknowledge_comment="Roger"
+    launch_comment="Australian Light Infantry Engaging">
+
+    <round 
+        instances="4"
+        instance_class="soldier"
+        instance_key="usf_aus_light_infantry"
+        instance_spread="5 5 5" 
+        common_spread="0 0 0" 
+        launch_time="2.0"
+        spawn_time="5.0">
+
+        <effect class="launch" ref="ShadowAirplaneFlyby" shadow="1" />
+        <sound class="launch" fileref="plane_flyby.wav" />
+    </round>
+
+
+    <hud_icon filename="usf_aus.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="0.2" />
+    <inventory encumbrance="0.0" price="120.0" />
+
+</call>

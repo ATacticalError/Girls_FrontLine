@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+	<model filename="gs_default.xml"></model>
+
+	<model filename="gs_95type.xml"><requirement class="carry_item" slot="1" key="95type"/></model>
+	<model filename="gs_95type.xml"><requirement class="carry_item" slot="1" key="95type_1"/></model>
+	<model filename="gs_95type.xml"><requirement class="carry_item" slot="1" key="95type_2"/></model>
+
+	<model filename="gs_97type.xml"><requirement class="carry_item" slot="1" key="97type"/></model>
+	<model filename="gs_97type.xml"><requirement class="carry_item" slot="1" key="97type_1"/></model>
+	<model filename="gs_97type.xml"><requirement class="carry_item" slot="1" key="97type_2"/></model>
+
+	<model filename="gs_98k.xml"><requirement class="carry_item" slot="1" key="98k"/></model>
+	<model filename="gs_98k.xml"><requirement class="carry_item" slot="1" key="98k_1"/></model>
+
+	<model filename="gs_9a91.xml"><requirement class="carry_item" slot="1" key="9a91"/></model>
+	<model filename="gs_9a91.xml"><requirement class="carry_item" slot="1" key="9a91_1"/></model>
+	<model filename="gs_9a91.xml"><requirement class="carry_item" slot="1" key="9a91_2"/></model>
+
+	<model filename="gs_9a91_1302.xml"><requirement class="carry_item" slot="1" key="9a91_1302"/></model>
+	<model filename="gs_9a91_1302.xml"><requirement class="carry_item" slot="1" key="9a91_1302_1"/></model>
+	<model filename="gs_9a91_1302.xml"><requirement class="carry_item" slot="1" key="9a91_1302_2"/></model>
+
+	<model filename="gs_aa12.xml"><requirement class="carry_item" slot="1" key="aa12"/></model>
+	<model filename="gs_aa12.xml"><requirement class="carry_item" slot="1" key="aa12_1"/></model>
+	<model filename="gs_aa12.xml"><requirement class="carry_item" slot="1" key="aa12_2"/></model>
+	<model filename="gs_aa12.xml"><requirement class="carry_item" slot="1" key="aa12_3"/></model>
+	<model filename="gs_aa12.xml"><requirement class="carry_item" slot="1" key="aa12_4"/></model>
+	<model filename="gs_aa12.xml"><requirement class="carry_item" slot="1" key="aa12_5"/></model>
+
+	<model filename="gs_ak12.xml"><requirement class="carry_item" slot="1" key="ak12"/></model>
+	<model filename="gs_ak12.xml"><requirement class="carry_item" slot="1" key="ak12_1"/></model>
+	<model filename="gs_ak12.xml"><requirement class="carry_item" slot="1" key="ak12_2"/></model>
+
+	<model filename="gs_an94.xml"><requirement class="carry_item" slot="1" key="an94"/></model>
+	<model filename="gs_an94.xml"><requirement class="carry_item" slot="1" key="an94_1"/></model>
+	<model filename="gs_an94.xml"><requirement class="carry_item" slot="1" key="an94_2"/></model>
+
+	<model filename="gs_ar15.xml"><requirement class="carry_item" slot="1" key="ar15"/></model>
+	<model filename="gs_ar15.xml"><requirement class="carry_item" slot="1" key="ar15_1"/></model>
+	<model filename="gs_ar15.xml"><requirement class="carry_item" slot="1" key="ar15_2"/></model>
+
+	<model filename="gs_c96.xml"><requirement class="carry_item" slot="1" key="c96"/></model>
+	<model filename="gs_c96.xml"><requirement class="carry_item" slot="1" key="c96_1"/></model>
+
+	<model filename="gs_fn57.xml"><requirement class="carry_item" slot="1" key="fn57"/></model>
+	<model filename="gs_fn57.xml"><requirement class="carry_item" slot="1" key="fn57_1"/></model>
+
+	<model filename="gs_fn57_1109.xml"><requirement class="carry_item" slot="1" key="fn57_1109"/></model>
+	<model filename="gs_fn57_1109.xml"><requirement class="carry_item" slot="1" key="fn57_1109_1"/></model>
+
+	<model filename="gs_fn57_1902.xml"><requirement class="carry_item" slot="1" key="fn57_1902"/></model>
+	<model filename="gs_fn57_1902.xml"><requirement class="carry_item" slot="1" key="fn57_1902_1"/></model>
+
+	<model filename="gs_fnfnc.xml"><requirement class="carry_item" slot="1" key="fnfnc"/></model>
+	<model filename="gs_fnfnc.xml"><requirement class="carry_item" slot="1" key="fnfnc_1"/></model>
+	<model filename="gs_fnfnc.xml"><requirement class="carry_item" slot="1" key="fnfnc_2"/></model>
+
+	<model filename="gs_g11.xml"><requirement class="carry_item" slot="1" key="g11"/></model>
+	<model filename="gs_g11.xml"><requirement class="carry_item" slot="1" key="g11_1"/></model>
+	<model filename="gs_g11.xml"><requirement class="carry_item" slot="1" key="g11_2"/></model>
+
+	<model filename="gs_g11_9.xml"><requirement class="carry_item" slot="1" key="g11_9"/></model>
+	<model filename="gs_g11_9.xml"><requirement class="carry_item" slot="1" key="g11_9_1"/></model>
+	<model filename="gs_g11_9.xml"><requirement class="carry_item" slot="1" key="g11_9_2"/></model>
+
+	<model filename="gs_hk416.xml"><requirement class="carry_item" slot="1" key="hk416"/></model>
+	<model filename="gs_hk416.xml"><requirement class="carry_item" slot="1" key="hk416_1"/></model>
+	<model filename="gs_hk416.xml"><requirement class="carry_item" slot="1" key="hk416_2"/></model>
+
+	<model filename="gs_m14.xml"><requirement class="carry_item" slot="1" key="m14"/></model>
+	<model filename="gs_m14.xml"><requirement class="carry_item" slot="1" key="m14_1"/></model>
+
+	<model filename="gs_m14_303.xml"><requirement class="carry_item" slot="1" key="m14_303"/></model>
+	<model filename="gs_m14_303.xml"><requirement class="carry_item" slot="1" key="m14_303_1"/></model>
+
+	<model filename="gs_m16a1.xml"><requirement class="carry_item" slot="1" key="m16a1"/></model>
+	<model filename="gs_m16a1.xml"><requirement class="carry_item" slot="1" key="m16a1_1"/></model>
+	<model filename="gs_m16a1.xml"><requirement class="carry_item" slot="1" key="m16a1_2"/></model>
+	<model filename="gs_m16a1.xml"><requirement class="carry_item" slot="1" key="m16a1_3"/></model>
+
+	<model filename="gs_m1873.xml"><requirement class="carry_item" slot="1" key="m1873"/></model>
+	<model filename="gs_m1873.xml"><requirement class="carry_item" slot="1" key="m1873_1"/></model>
+
+	<model filename="gs_m1873_301.xml"><requirement class="carry_item" slot="1" key="m1873_301"/></model>
+	<model filename="gs_m1873_301.xml"><requirement class="carry_item" slot="1" key="m1873_301_1"/></model>
+
+	<model filename="gs_m1895.xml"><requirement class="carry_item" slot="1" key="m1895"/></model>
+	<model filename="gs_m1895.xml"><requirement class="carry_item" slot="1" key="m1895_1"/></model>
+
+	<model filename="gs_m1895mod.xml"><requirement class="carry_item" slot="1" key="m1895mod"/></model>
+	<model filename="gs_m1895mod.xml"><requirement class="carry_item" slot="1" key="m1895mod_1"/></model>
+
+	<model filename="gs_m1911.xml"><requirement class="carry_item" slot="1" key="m1911"/></model>
+	<model filename="gs_m1911.xml"><requirement class="carry_item" slot="1" key="m1911_1"/></model>
+
+	<model filename="gs_m1911mod.xml"><requirement class="carry_item" slot="1" key="m1911mod"/></model>
+	<model filename="gs_m1911mod.xml"><requirement class="carry_item" slot="1" key="m9111mod_1"/></model>
+
+	<model filename="gs_mp446.xml"><requirement class="carry_item" slot="1" key="mp446"/></model>
+	<model filename="gs_mp446.xml"><requirement class="carry_item" slot="1" key="mp446_1"/></model>
+
+	<model filename="gs_mp446mod.xml"><requirement class="carry_item" slot="1" key="mp446mod"/></model>
+	<model filename="gs_mp446mod.xml"><requirement class="carry_item" slot="1" key="mp446mod_1"/></model>
+
+	<model filename="gs_mp446_103.xml"><requirement class="carry_item" slot="1" key="mp446_103"/></model>
+	<model filename="gs_mp446_103.xml"><requirement class="carry_item" slot="1" key="mp446_103_1"/></model>
+
+	<model filename="gs_mp446_402.xml"><requirement class="carry_item" slot="1" key="mp446_402"/></model>
+	<model filename="gs_mp446_402.xml"><requirement class="carry_item" slot="1" key="mp446_402_1"/></model>
+
+	<model filename="gs_m2hb.xml"><requirement class="carry_item" slot="1" key="m2hb"/></model>
+	<model filename="gs_m2hb.xml"><requirement class="carry_item" slot="1" key="m2hb_1"/></model>
+	<model filename="gs_m2hb.xml"><requirement class="carry_item" slot="1" key="m2hb_2"/></model>
+	<model filename="gs_m2hb.xml"><requirement class="carry_item" slot="1" key="m2hb_3"/></model>
+
+	<model filename="gs_m4 sopmod ii.xml"><requirement class="carry_item" slot="1" key="m4 sopmod ii"/></model>
+	<model filename="gs_m4 sopmod ii.xml"><requirement class="carry_item" slot="1" key="m4 sopmod ii_1"/></model>
+	<model filename="gs_m4 sopmod ii.xml"><requirement class="carry_item" slot="1" key="m4 sopmod ii_2"/></model>
+
+	<model filename="gs_m4a1.xml"><requirement class="carry_item" slot="1" key="m4a1"/></model>
+	<model filename="gs_m4a1.xml"><requirement class="carry_item" slot="1" key="m4a1_1"/></model>
+	<model filename="gs_m4a1.xml"><requirement class="carry_item" slot="1" key="m4a1_2"/></model>
+
+	<model filename="gs_m82a1.xml"><requirement class="carry_item" slot="1" key="m82a1"/></model>
+	<model filename="gs_m82a1.xml"><requirement class="carry_item" slot="1" key="m82a1_1"/></model>
+
+	<model filename="gs_m9.xml"><requirement class="carry_item" slot="1" key="m9"/></model>
+	<model filename="gs_m9.xml"><requirement class="carry_item" slot="1" key="m9_1"/></model>
+
+	<model filename="gs_m99.xml"><requirement class="carry_item" slot="1" key="m99"/></model>
+	<model filename="gs_m99.xml"><requirement class="carry_item" slot="1" key="m99_1"/></model>
+
+	<model filename="gs_m99_1701.xml"><requirement class="carry_item" slot="1" key="m99_1701"/></model>
+	<model filename="gs_m99_1701.xml"><requirement class="carry_item" slot="1" key="m99_1701_1"/></model>
+
+	<model filename="gs_mp5.xml"><requirement class="carry_item" slot="1" key="mp5"/></model>
+	<model filename="gs_mp5.xml"><requirement class="carry_item" slot="1" key="mp5_1"/></model>
+	<model filename="gs_mp5.xml"><requirement class="carry_item" slot="1" key="mp5_2"/></model>
+	<model filename="gs_mp5.xml"><requirement class="carry_item" slot="1" key="mp5_3"/></model>
+
+	<model filename="gs_mp5_3.xml"><requirement class="carry_item" slot="1" key="mp5_3"/></model>
+	<model filename="gs_mp5_3.xml"><requirement class="carry_item" slot="1" key="mp5_3_1"/></model>
+	<model filename="gs_mp5_3.xml"><requirement class="carry_item" slot="1" key="mp5_3_2"/></model>
+	<model filename="gs_mp5_3.xml"><requirement class="carry_item" slot="1" key="mp5_3_3"/></model>
+
+	<model filename="gs_mp5_1205.xml"><requirement class="carry_item" slot="1" key="mp5_1205"/></model>
+	<model filename="gs_mp5_1205.xml"><requirement class="carry_item" slot="1" key="mp5_1205_1"/></model>
+	<model filename="gs_mp5_1205.xml"><requirement class="carry_item" slot="1" key="mp5_1205_2"/></model>
+	<model filename="gs_mp5_1205.xml"><requirement class="carry_item" slot="1" key="mp5_1205_3"/></model>
+
+	<model filename="gs_mp5_1903.xml"><requirement class="carry_item" slot="1" key="mp5_1903"/></model>
+	<model filename="gs_mp5_1903.xml"><requirement class="carry_item" slot="1" key="mp5_1903_1"/></model>
+	<model filename="gs_mp5_1903.xml"><requirement class="carry_item" slot="1" key="mp5_1903_2"/></model>
+	<model filename="gs_mp5_1903.xml"><requirement class="carry_item" slot="1" key="mp5_1903_3"/></model>
+
+	<model filename="gs_mp40.xml"><requirement class="carry_item" slot="1" key="mp40"/></model>
+	<model filename="gs_mp40.xml"><requirement class="carry_item" slot="1" key="mp40_1"/></model>
+	<model filename="gs_mp40.xml"><requirement class="carry_item" slot="1" key="mp40_2"/></model>
+	<model filename="gs_mp40.xml"><requirement class="carry_item" slot="1" key="mp40_3"/></model>
+
+	<model filename="gs_mp40_902.xml"><requirement class="carry_item" slot="1" key="mp40_902"/></model>
+	<model filename="gs_mp40_902.xml"><requirement class="carry_item" slot="1" key="mp40_902_1"/></model>
+	<model filename="gs_mp40_902.xml"><requirement class="carry_item" slot="1" key="mp40_902_2"/></model>
+	<model filename="gs_mp40_902.xml"><requirement class="carry_item" slot="1" key="mp40_902_3"/></model>
+
+<!-- 	<model filename="gs_mg5.xml"><requirement class="carry_item" slot="1" key="mg5"/></model>
+	<model filename="gs_mg5.xml"><requirement class="carry_item" slot="1" key="mg5_1"/></model>
+	<model filename="gs_mg5.xml"><requirement class="carry_item" slot="1" key="mg5_2"/></model>
+	<model filename="gs_mg5.xml"><requirement class="carry_item" slot="1" key="mg5_3"/></model>
+ -->
+
+	<model filename="gs_negev.xml"><requirement class="carry_item" slot="1" key="negev"/></model>
+	<model filename="gs_negev.xml"><requirement class="carry_item" slot="1" key="negev_1"/></model>
+	<model filename="gs_negev.xml"><requirement class="carry_item" slot="1" key="negev_2"/></model>
+	<model filename="gs_negev.xml"><requirement class="carry_item" slot="1" key="negev_3"/></model>
+
+	<model filename="gs_negev_904.xml"><requirement class="carry_item" slot="1" key="negev_904"/></model>
+	<model filename="gs_negev_904.xml"><requirement class="carry_item" slot="1" key="negev_904_1"/></model>
+	<model filename="gs_negev_904.xml"><requirement class="carry_item" slot="1" key="negev_904_2"/></model>
+	<model filename="gs_negev_904.xml"><requirement class="carry_item" slot="1" key="negev_904_3"/></model>
+
+	<model filename="gs_p7.xml"><requirement class="carry_item" slot="1" key="p7"/></model>
+	<model filename="gs_p7.xml"><requirement class="carry_item" slot="1" key="p7_1"/></model>
+
+	<model filename="gs_p7_606.xml"><requirement class="carry_item" slot="1" key="p7_606"/></model>
+	<model filename="gs_p7_606.xml"><requirement class="carry_item" slot="1" key="p7_606_1"/></model>
+
+	<model filename="gs_p7_1404.xml"><requirement class="carry_item" slot="1" key="p7_1404"/></model>
+	<model filename="gs_p7_1404.xml"><requirement class="carry_item" slot="1" key="p7_1404_1"/></model>
+
+	<model filename="gs_p226.xml"><requirement class="carry_item" slot="1" key="p226"/></model>
+	<model filename="gs_p226.xml"><requirement class="carry_item" slot="1" key="p226_1"/></model>
+
+	<model filename="gs_pkp.xml"><requirement class="carry_item" slot="1" key="pkp"/></model>
+	<model filename="gs_pkp.xml"><requirement class="carry_item" slot="1" key="pkp_1"/></model>
+	<model filename="gs_pkp.xml"><requirement class="carry_item" slot="1" key="pkp_2"/></model>
+	<model filename="gs_pkp.xml"><requirement class="carry_item" slot="1" key="pkp_3"/></model>
+
+	<model filename="gs_spas12.xml"><requirement class="carry_item" slot="1" key="spas12"/></model>
+	<model filename="gs_spas12.xml"><requirement class="carry_item" slot="1" key="spas12_1"/></model>
+	<model filename="gs_spas12.xml"><requirement class="carry_item" slot="1" key="spas12_2"/></model>
+	<model filename="gs_spas12.xml"><requirement class="carry_item" slot="1" key="spas12_3"/></model>
+	<model filename="gs_spas12.xml"><requirement class="carry_item" slot="1" key="spas12_4"/></model>
+	<model filename="gs_spas12.xml"><requirement class="carry_item" slot="1" key="spas12_5"/></model>
+
+	<model filename="gs_type100.xml"><requirement class="carry_item" slot="1" key="type100"/></model>
+	<model filename="gs_type100.xml"><requirement class="carry_item" slot="1" key="type100_1"/></model>
+	<model filename="gs_type100.xml"><requirement class="carry_item" slot="1" key="type100_2"/></model>
+	<model filename="gs_type100.xml"><requirement class="carry_item" slot="1" key="type100_3"/></model>
+
+	<model filename="gs_ump45.xml"><requirement class="carry_item" slot="1" key="ump45"/></model>
+	<model filename="gs_ump45.xml"><requirement class="carry_item" slot="1" key="ump45_1"/></model>
+	<model filename="gs_ump45.xml"><requirement class="carry_item" slot="1" key="ump45_2"/></model>
+	<model filename="gs_ump45.xml"><requirement class="carry_item" slot="1" key="ump45_3"/></model>
+
+	<model filename="gs_ump45_410.xml"><requirement class="carry_item" slot="1" key="ump45_410"/></model>
+	<model filename="gs_ump45_410.xml"><requirement class="carry_item" slot="1" key="ump45_410_1"/></model>
+	<model filename="gs_ump45_410.xml"><requirement class="carry_item" slot="1" key="ump45_410_2"/></model>
+	<model filename="gs_ump45_410.xml"><requirement class="carry_item" slot="1" key="ump45_410_3"/></model>
+
+	<model filename="gs_ump9.xml"><requirement class="carry_item" slot="1" key="ump9"/></model>
+	<model filename="gs_ump9.xml"><requirement class="carry_item" slot="1" key="ump9_1"/></model>
+	<model filename="gs_ump9.xml"><requirement class="carry_item" slot="1" key="ump9_2"/></model>
+	<model filename="gs_ump9.xml"><requirement class="carry_item" slot="1" key="ump9_3"/></model>
+
+	<model filename="gs_ump9_409.xml"><requirement class="carry_item" slot="1" key="ump9_409"/></model>
+	<model filename="gs_ump9_409.xml"><requirement class="carry_item" slot="1" key="ump9_409_1"/></model>
+	<model filename="gs_ump9_409.xml"><requirement class="carry_item" slot="1" key="ump9_409_2"/></model>
+	<model filename="gs_ump9_409.xml"><requirement class="carry_item" slot="1" key="ump9_409_3"/></model>
+
+	<model filename="gs_usas12.xml"><requirement class="carry_item" slot="1" key="usas12"/></model>
+	<model filename="gs_usas12.xml"><requirement class="carry_item" slot="1" key="usas12_1"/></model>
+	<model filename="gs_usas12.xml"><requirement class="carry_item" slot="1" key="usas12_2"/></model>
+	<model filename="gs_usas12.xml"><requirement class="carry_item" slot="1" key="usas12_3"/></model>
+	<model filename="gs_usas12.xml"><requirement class="carry_item" slot="1" key="usas12_4"/></model>
+	<model filename="gs_usas12.xml"><requirement class="carry_item" slot="1" key="usas12_5"/></model>
+
+	<model filename="gs_usas12_2704.xml"><requirement class="carry_item" slot="1" key="usas12_2704"/></model>
+	<model filename="gs_usas12_2704.xml"><requirement class="carry_item" slot="1" key="usas12_2704_1"/></model>
+	<model filename="gs_usas12_2704.xml"><requirement class="carry_item" slot="1" key="usas12_2704_2"/></model>
+	<model filename="gs_usas12_2704.xml"><requirement class="carry_item" slot="1" key="usas12_2704_3"/></model>
+	<model filename="gs_usas12_2704.xml"><requirement class="carry_item" slot="1" key="usas12_2704_4"/></model>
+	<model filename="gs_usas12_2704.xml"><requirement class="carry_item" slot="1" key="usas12_2704_5"/></model>
+
+	<model filename="gs_wa2000.xml"><requirement class="carry_item" slot="1" key="wa2000"/></model>
+	<model filename="gs_wa2000.xml"><requirement class="carry_item" slot="1" key="wa2000_1"/></model>
+
+	<model filename="gs_wa2000_6.xml"><requirement class="carry_item" slot="1" key="wa2000_6"/></model>
+	<model filename="gs_wa2000_6.xml"><requirement class="carry_item" slot="1" key="wa2000_6_1"/></model>
+
+	<model filename="gs_wa2000_306.xml"><requirement class="carry_item" slot="1" key="wa2000_306"/></model>
+	<model filename="gs_wa2000_306.xml"><requirement class="carry_item" slot="1" key="wa2000_306_1"/></model>
+
+	<model filename="gs_wa2000_1108.xml"><requirement class="carry_item" slot="1" key="wa2000_1108"/></model>
+	<model filename="gs_wa2000_1108.xml"><requirement class="carry_item" slot="1" key="wa2000_1108_1"/></model>
+
+
+</models>
+
+
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<character filename="default.character">
+
+
+	<sound key="death" fileref="ussr_death_01.wav" volume="1.55" />
+	<sound key="death" fileref="ussr_death_02.wav" volume="1.55" />
+	<sound key="death" fileref="ussr_death_03.wav" volume="1.55" />
+	<sound key="death" fileref="ussr_death_04.wav" volume="1.55" />
+	<sound key="death" fileref="ussr_death_05.wav" volume="1.55" />
+	<sound key="death" fileref="ussr_death_06.wav" volume="1.55" />
+
+	<sound key="throw" fileref="ussr_ura_2.wav" volume="0.55" />
+	<sound key="throw" fileref="ussr_throw_2.wav" volume="0.55" /> 
+
+
+</character>

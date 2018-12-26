@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapons>
+    <weapon file="gk_supply_base.weapon" key="gk_supply_hg.weapon" >
+        <specification name="HG Supply Box Deploy" spawn_instance_key="gk_supply_hg.vehicle" />
+        <hud_icon filename="hud_hesco_barrier.png" />
+    </weapon>
+    <weapon file="gk_supply_base.weapon" key="gk_supply_smg.weapon" >
+        <specification name="SMG Supply Box Deploy" spawn_instance_key="gk_supply_smg.vehicle" />
+        <hud_icon filename="hud_hesco_barrier.png" />
+    </weapon>
+    <weapon file="gk_supply_base.weapon" key="gk_supply_ar.weapon" >
+        <specification name="AR Supply Box Deploy" spawn_instance_key="gk_supply_ar.vehicle" />
+        <hud_icon filename="hud_hesco_barrier.png" />
+    </weapon>
+    <weapon file="gk_supply_base.weapon" key="gk_supply_rf.weapon" >
+        <specification name="RF Supply Box Deploy" spawn_instance_key="gk_supply_rf.vehicle" />
+        <hud_icon filename="hud_hesco_barrier.png" />
+    </weapon>
+    <weapon file="gk_supply_base.weapon" key="gk_supply_mg.weapon" >
+        <specification name="MG Supply Box Deploy" spawn_instance_key="gk_supply_mg.vehicle" />
+        <hud_icon filename="hud_hesco_barrier.png" />
+    </weapon>
+    <weapon file="gk_supply_base.weapon" key="gk_supply_sg.weapon" >
+        <specification name="SG Supply Box Deploy" spawn_instance_key="gk_supply_sg.vehicle" />
+        <hud_icon filename="hud_hesco_barrier.png" />
+    </weapon>
+</weapons>
+

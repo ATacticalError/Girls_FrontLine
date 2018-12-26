@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_calls="1" >
+	<call key="squad_404.call" />
+	<call key="squad_AR.call" />
+	<call key="squad_defy.call" />
+	<call key="strike_2b14.call" />
+	<call key="strike_air.call" />
+
+	<call key="buggy.call" />
+	<call key="supply_quad.call" />
+	<call key="cover_drop.call" />
+	<call key="rubber_boat.call" />
+
+	<!-- primary -->
+	<weapon key="gk_supply_hg.weapon" />
+	<weapon key="gk_supply_smg.weapon" />
+	<weapon key="gk_supply_ar.weapon" />
+	<weapon key="gk_supply_rf.weapon" />
+	<weapon key="gk_supply_mg.weapon" />
+	<weapon key="gk_supply_sg.weapon" />
+	
+	<weapon key="gw_98k.weapon" />
+	<weapon key="gw_ak12.weapon" />
+	<weapon key="gw_an94.weapon" />
+	<weapon key="gw_ar15.weapon" />
+	<weapon key="gw_fnfnc.weapon" />
+	<weapon key="gw_g11.weapon" />
+	<weapon key="gw_hk416.weapon" />
+	<weapon key="gw_m14.weapon" />
+	<weapon key="gw_m16a1.weapon" />
+	<weapon key="gw_m1873.weapon" />
+	<weapon key="gw_m2hb.weapon" />
+	<weapon key="gw_m4 sopmod ii.weapon" />
+	<weapon key="gw_m4a1.weapon" />
+	<weapon key="gw_m9.weapon" />
+	<weapon key="gw_m99.weapon" />
+	<weapon key="gw_spas12.weapon" />
+	<weapon key="gw_ump45.weapon" />
+	<weapon key="gw_ump9.weapon" />
+
+	<!-- secondary -->
+	
+	<weapon key="gw_repair.weapon" />
+	<weapon key="gw_repair_em.weapon" />
+	<weapon key="gw_repair_q.weapon" />
+	<!-- <weapon key="gw_BGM-71_deploy.weapon" /> -->
+
+	<projectile key="molotov.projectile" enabled="0"/> 
+
+	<weapon key='binoculars.weapon' />    
+	<weapon key='cover_resource.weapon' />
+	<weapon key='m79.weapon' enabled="0" />
+	<weapon key='m72_law.weapon' />
+
+	<!-- disable original -->
+	<carry_item key="vest1.carry_item" enabled="0"/>     
+  	<carry_item key="vest2.carry_item" enabled="0"/> 
+  	<carry_item key="vest3.carry_item" enabled="0"/>
+	<carry_item key="vest_blackops.carry_item" enabled="0"/>	
+	<carry_item key="eodvest.carry_item" enabled="0"/> 
+	<carry_item key="camouflage_suit.carry_item" enabled="0"/>
+
+	<carry_item key="98k" enabled="1"/> 
+	<carry_item key="ak12" enabled="1"/> 
+	<carry_item key="an94" enabled="1"/> 
+	<carry_item key="ar15" enabled="1"/> 
+	<carry_item key="fnfnc" enabled="1"/> 
+	<carry_item key="g11" enabled="1"/> 
+	<carry_item key="hk416" enabled="1"/>   
+	<carry_item key="m14" enabled="1"/>
+	<carry_item key="m16a1" enabled="1"/> 
+	<carry_item key="m1873" enabled="1"/> 
+	<carry_item key="m2hb" enabled="1"/> 
+	<carry_item key="m4 sopmod ii" enabled="1"/>      
+	<carry_item key="m4a1" enabled="1"/> 
+	<carry_item key="m9" enabled="1"/> 
+	<carry_item key="m99" enabled="1"/> 
+	<!-- <carry_item key="mg5" enabled="1"/>  -->
+	<carry_item key="spas12" enabled="1"/> 
+	<carry_item key="ump45" enabled="1"/> 
+	<carry_item key="ump9" enabled="1"/> 
+	
+<!-- 	<carry_item key="9a91" enabled="1"/> 
+	<carry_item key="9a91_1302" enabled="1"/> 
+	<carry_item key="95type" enabled="1"/> 
+	<carry_item key="97type" enabled="1"/> 
+	<carry_item key="aa12" enabled="1"/> 
+	<carry_item key="c96" enabled="1"/> 
+	<carry_item key="fn57" enabled="1"/> 
+	<carry_item key="fn57_1109" enabled="1"/> 
+	<carry_item key="fn57_1902" enabled="1"/> 
+	<carry_item key="m82a1" enabled="1"/> 
+	<carry_item key="m1895" enabled="1"/> 
+	<carry_item key="m1895mod" enabled="1"/> 
+	<carry_item key="m1911" enabled="1"/> 
+	<carry_item key="m1911mod" enabled="1"/> 
+	<carry_item key="mp446" enabled="1"/> 
+	<carry_item key="mp446mod" enabled="1"/> 
+	<carry_item key="mp446_103" enabled="1"/> 
+	<carry_item key="mp446_402" enabled="1"/> 
+	<carry_item key="negev" enabled="1"/> 
+	<carry_item key="negev_904" enabled="1"/> 
+	<carry_item key="p7" enabled="1"/> 
+	<carry_item key="p7_606" enabled="1"/> 
+	<carry_item key="p7_1404" enabled="1"/> 
+	<carry_item key="p226" enabled="1"/> 
+	<carry_item key="pkp" enabled="1"/> 
+	<carry_item key="type100" enabled="1"/> 
+	<carry_item key="usas12" enabled="1"/> 
+	<carry_item key="usas12_2704" enabled="1"/> 
+	<carry_item key="wa2000" enabled="1"/> 
+	<carry_item key="wa2000_6" enabled="1"/> 
+	<carry_item key="wa2000_306" enabled="1"/> 
+	<carry_item key="wa2000_1108" enabled="1"/> 
+	<carry_item key="mp5" enabled="1"/> 
+	<carry_item key="mp5_3" enabled="1"/> 
+	<carry_item key="mp5_1205" enabled="1"/> 
+	<carry_item key="mp5_1903" enabled="1"/> 
+	<carry_item key="mp40" enabled="1"/> 
+	<carry_item key="mp40_902" /> -->
+
+
+
+
+
+
+
+
+	<carry_item key="gift_box_1.carry_item" />
+	<carry_item key="gift_box_2.carry_item" />
+	<carry_item key="gift_box_3.carry_item" />
+	<carry_item key="dollars.carry_item" />
+	<carry_item key="dollars_300.carry_item" /> 
+	<carry_item key="gold_bar.carry_item" /> 
+
+	<carry_item key="g11_9" enabled="1"/> 
+	<carry_item key="m14_303" enabled="1"/>
+	<carry_item key="m1873_301" enabled="1"/> 
+	<carry_item key="m99_1701" enabled="1"/> 
+	<carry_item key="ump45_410" enabled="1"/> 
+	<carry_item key="ump9_409" enabled="1"/> 
+
+
+	<!-- vehicle -->
+	<vehicle key="jeep_1.vehicle" />
+ 	<vehicle key="apc_1.vehicle" />
+ 	<!-- <vehicle key="tank_2.vehicle" /> -->
+ 	<vehicle key="transport_truck.vehicle" />   
+ 	<vehicle key="tank_para.vehicle" />
+	
+</resources>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<intro>
+    <!-- <text key="Hint" text="This will not appear   " /> -->
+    <text key="Hint" text="SG人形拥有极高的护甲，但是她们移动速度较为缓慢。" />
+    <text key="Hint" text="SMG人形拥有较高的闪避以及较快的速度，最好使用高精准武器或者爆炸武器对付她们。" />
+    <text key="Hint" text="RF人形拥有致命的攻击手段，并且难以被发现。" />
+    <text key="Hint" text="AR人形各项素质都很平均。" />
+    <text key="Hint" text="MG人形具有压制性的火力。" />
+    <!-- <text key="Hint" text="香蕉皮" />    -->
+</intro>

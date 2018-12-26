@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_SG.weapon" key="gw_spas12.weapon">
+    <specification retrigger_time="0.25" 
+    accuracy_factor="0.8" 
+    sustained_fire_grow_step="2" 
+    sustained_fire_diminish_rate="0.6" 
+    magazine_size="8" 
+    can_shoot_standing="1" 
+    suppressed="0" 
+    name="SPAS-12" 
+    class="4" 
+    reload_one_at_a_time="0" 
+    sight_range_modifier="1.0" 
+    projectile_speed="95.0" 
+    projectiles_per_shot="10" 
+	burst_shots="1"	/>
+
+    <sound key="fire" fileref="GFL_SPAS12.wav" pitch_variety="0.05" volume="0.75" />
+    <model filename="gw_spas12.xml" />
+
+
+
+    <hud_icon filename="gw_spas12.png" />
+    <commonness value="0.02" can_respawn_with="1" in_stock="1" />
+    <inventory encumbrance="10.0" price="50.0" />
+	
+
+
+    
+</weapon>
+

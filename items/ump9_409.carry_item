@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+    <carry_item filename="base_assault_vest.carry_item" key="ump9_409" name="UMP9[Am I late?] 3/3" slot="1" transform_on_consume="ump9_409_1" time_to_live_out_in_the_open="120.0">
+        <hud_icon filename="ump9_409.png" />
+        <inventory encumbrance="4" price="50" />
+        <model mesh_filename="vest.xml" />
+        <commonness value="1.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+
+    <carry_item filename="base_assault_vest.carry_item" key="ump9_409_1" name="UMP9[Am I late?] 2/3" slot="1" transform_on_consume="ump9_409_2" time_to_live_out_in_the_open="120.0">
+        <hud_icon filename="ump9_409_d.png" />
+        <inventory encumbrance="4" price="1" />
+        <model mesh_filename="vest.xml" />
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+
+    <carry_item filename="base_assault_vest.carry_item" key="ump9_409_2" name="UMP9[Am I late?] 1/3" slot="1" transform_on_consume="ump9_409_3" time_to_live_out_in_the_open="120.0">
+        <hud_icon filename="ump9_409_d.png" />
+        <inventory encumbrance="4" price="1" />
+        <model mesh_filename="vest.xml" />
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+
+    <carry_item filename="base_none.carry_item" key="ump9_409_3" name="UMP9[Am I late?] 0/3" slot="1" time_to_live_out_in_the_open="120.0">
+        <hud_icon filename="ump9_409_d.png" />
+        <inventory encumbrance="4" price="1" />
+        <model mesh_filename="vest.xml" />
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+
+</carry_items>

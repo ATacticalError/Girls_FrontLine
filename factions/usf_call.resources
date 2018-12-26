@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_calls="1" clear_carry_items="1">
+	<call key="squad_404.call" />
+	<call key="squad_AR.call" />
+	<call key="squad_defy.call" />
+	<call key="strike_2b14.call" />
+	<call key="strike_air.call" />
+
+
+	<carry_item key="ak12" enabled="1"/>
+	<carry_item key="an94" enabled="1"/>
+	<carry_item key="ar15" enabled="1"/>
+	<carry_item key="hk416" enabled="1"/>
+	<carry_item key="m4 sopmod ii" enabled="1"/>
+	<carry_item key="m4a1" enabled="1"/>
+	<carry_item key="m14" enabled="1"/>
+	<carry_item key="m16a1" enabled="1"/>
+	<carry_item key="spas12" enabled="1"/>
+	<carry_item key="ump9" enabled="1"/>
+	<carry_item key="ump45" enabled="1"/>
+</resources>

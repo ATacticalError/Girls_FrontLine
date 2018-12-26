@@ -1,0 +1,37 @@
+偶然之下，格里芬侦查梯队发掘了一处资料库，可以用来模拟作战，而模拟作战的内容竟然是几十年前第三次世界大战中的一次秘密行动。当时苏联尚未解体，而在地球的另一边，全美洲联邦也已成型。格里芬总部决定派出最精锐的作战梯队前往第三次世界大战的战场，一探历史的真相。[spoiler]一本正经地瞎扯[/spoiler]
+
+更新内容：
+阵营-设定陆战队军衔，格里芬人形名字
+模式-增加入侵模式服务器适配
+
+如果想开服务器一起high的话，可以看看mod文件夹里的"scripts\my_start_invasion.as"文件，然后康康 [url=https://runningwithrifles.gamepedia.com/Handling_mods#How_to_run_a_mod_on_a_dedicated_server.3F]服务器搭建教程[/url] 来学习一个。
+国内小测试服可能要开了，想了解更多信息可以来RWR唠嗑群 201182024。
+
+
+
+感谢:
+ammoguy四等人外卖王：主要负责精神美国人，usfmc士兵模型，武器模型以及一半格里芬人形由他完成
+红色警戒：贡献了usfmc以及ussra音效
+少女前线：格里芬人设、立绘、音效
+
+
+
+Occasionally, Griffin investigation echelon unearthed a database that could be used to simulate operations, and the content of the simulated operations turned out to be a covert operation in World War III, burst decades ago. At that time, the Soviet Union had not yet disintegrated, and on the other side of the globe, the entire American Federation had also taken shape. The headquarters of Griffin decided to send the most elite combat echelons to the battlefields of World War III to explore the truth of history.
+
+update content:
+faction: change rank hud for usfmc, name for T-doll
+gamemode: add invasion mode for server host
+
+If you want host a mod server, you should check file "scripts\my_start_invasion.as" under mod folder and [url=https://runningwithrifles.gamepedia.com/Handling_mods#How_to_run_a_mod_on_a_dedicated_server.3F]learn how to build a server[/url].
+Or contact me @discord : Xe-No#1154
+Btw, CN test server is about to set up...
+
+
+
+
+this mod is an alpha build, quality is not guaranteed but will be improved 
+
+Credits & Thanks
+Ammoguy: usfmc soldier and weapon, half soldier of G&K, ussra soldier
+Red Alert: sfx for usfmc and ussra soldier
+Girls' Frontline: IP, character setting drawing and sfx for G&K

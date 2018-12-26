@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectiles>
+
+	<projectile file="stun_grenade.projectile" />
+	<projectile file="hand_grenade.projectile" />
+	<projectile file="ince_grenade.projectile" />
+	<projectile file="ince_grenade_sub.projectile" />
+	<projectile file="molotov.projectile" />
+	<projectile file="molotov_sub.projectile" />
+
+
+	<projectile file="mortar_shell.projectile" />
+	<projectile file="impact_grenade.projectile" />
+	<projectile file="c4.projectile" />
+	<projectile file="artillery_shell.projectile" />
+	
+	<projectile file="claymore_blast.projectile" />   
+	<projectile file="claymore.projectile" />   
+ 
+
+    <projectile file="naval_mine.projectile" />  
+ 	
+
+  	<projectile file="debri_stun.projectile" />
+  	<projectile file="debri_stun_medium.projectile" />  
+  	<projectile file="debri_stun_big.projectile" />
+  	<projectile file="debri_destroy_big.projectile" />  
+  	<projectile file="debri_destroy_small.projectile" />  
+  	
+
+  	<projectile file="flare.projectile" />
+	<projectile file="tracer_missile.projectile" />  
+	<projectile file="wiesel_flare.projectile" />
+	<projectile file="flare_checkpoint.projectile" />
+
+	<projectile file="banana_car_flare.projectile" />
+	<projectile file="aav7_flare.projectile" />
+	<projectile file="banana_peel.projectile" />
+	<projectile file="javelin_ap_sub.projectile" />
+  	<projectile file="dooms_hammer.projectile" />  
+    
+      
+</projectiles>

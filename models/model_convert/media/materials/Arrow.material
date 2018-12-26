@@ -1,0 +1,16 @@
+material Arrow
+  {
+    receive_shadows off
+    technique
+    {
+      pass
+      {
+	cull_hardware none
+	cull_software none
+        lighting off
+        //ambient 0.6 0.6 0.6 1.0 
+        //diffuse 0.4 0.4 0.4 1.0 
+        diffuse vertexcolour
+      } 
+    }
+  }

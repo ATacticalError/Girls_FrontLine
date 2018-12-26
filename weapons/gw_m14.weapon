@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_RF.weapon" key="gw_m14.weapon" >
+    <tag name="sniper" />
+    <specification 
+	retrigger_time="0.0827" 
+	accuracy_factor="1.0" 
+	sustained_fire_grow_step="0.5" 
+	sustained_fire_diminish_rate="1.87" 
+	magazine_size="20" 
+	can_shoot_standing="1" 
+	suppressed="0" 
+	name="M14" 
+	class="4" 
+	burst_shots="1"
+	reload_one_at_a_time="0" 
+	sight_range_modifier="1.85" 
+	projectile_speed="190.0" 
+	barrel_offset="0.4" 
+	projectiles_per_shot="1" />
+
+    <animation key="recoil" ref="27" />
+    <animation key="cycle" ref="30" />
+    <animation state_key="reload" animation_key="reloading, dragunov_svd" />
+
+<!--     <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="reload" animation_key="reloading, m16a4" />
+    <animation state_key="stabbing" animation_key="loli_stabbing" /> -->
+
+    <!-- Body -->
+
+    <effect class="muzzle" ref="ejection" />
+    <effect class="muzzle" ref="muzzle_gf" />
+
+
+    <sound key="fire" fileref="GFL_M14.wav" volume="0.75" />
+
+    <model filename="gw_m14.xml" />
+    <hud_icon filename="gw_m14.png" />
+    <commonness value="1" />
+    <inventory encumbrance="3.24" price="4.15" />
+
+    <projectiles_per_shot value="1" />
+    <weak_hand_hold offset="0.3" />
+
+    <projectile file="bullet.projectile">
+        <result 
+		class="hit" 
+		kill_probability="1.9" 
+		kill_decay_start_time="0.65" 
+		kill_decay_end_time="0.7" />
+    </projectile>
+
+    <modifier class="speed" value="+0.01" />    
+</weapon>
+

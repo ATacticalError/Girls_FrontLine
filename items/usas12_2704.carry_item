@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+    <carry_item filename="base_ep_vest.carry_item" key="usas12_2704" name="USAS-12[VRAIN Power] 5/5" slot="1" transform_on_consume="usas12_2704_1" time_to_live_out_in_the_open="120.0">
+        <hud_icon filename="usas12_2704.png" />
+        <inventory encumbrance="4" price="150" />
+        <model mesh_filename="vest.xml" />
+        <commonness value="1.0" in_stock="1" can_respawn_with="1" />
+    </carry_item>
+
+    <carry_item filename="base_ep_vest.carry_item" key="usas12_2704_1" name="USAS-12[VRAIN Power] 4/5" slot="1" transform_on_consume="usas12_2704_2" time_to_live_out_in_the_open="120.0">
+        <hud_icon filename="usas12_2704.png" />
+        <inventory encumbrance="4" price="1" />
+        <model mesh_filename="vest.xml" />
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+
+    <carry_item filename="base_ep_vest.carry_item" key="usas12_2704_2" name="USAS-12[VRAIN Power] 3/5" slot="1" transform_on_consume="usas12_2704_3" time_to_live_out_in_the_open="120.0">
+        <hud_icon filename="usas12_2704.png" />
+        <inventory encumbrance="4" price="1" />
+        <model mesh_filename="vest.xml" />
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+
+    <carry_item filename="base_light_vest.carry_item" key="usas12_2704_3" name="USAS-12[VRAIN Power] 2/5" slot="1" transform_on_consume="usas12_2704_4" time_to_live_out_in_the_open="120.0">
+        <hud_icon filename="usas12_2704_d.png" />
+        <inventory encumbrance="4" price="1" />
+        <model mesh_filename="vest.xml" />
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+
+    <carry_item filename="base_light_vest.carry_item" key="usas12_2704_4" name="USAS-12[VRAIN Power] 1/5" slot="1" transform_on_consume="usas12_2704_5" time_to_live_out_in_the_open="120.0">
+        <hud_icon filename="usas12_2704_d.png" />
+        <inventory encumbrance="4" price="1" />
+        <model mesh_filename="vest.xml" />
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+
+    <carry_item filename="base_none.carry_item" key="usas12_2704_5" name="USAS-12[VRAIN Power] 0/5" slot="1" time_to_live_out_in_the_open="120.0">
+        <hud_icon filename="usas12_2704_d.png" />
+        <inventory encumbrance="4" price="1" />
+        <model mesh_filename="vest.xml" />
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+    </carry_item>
+
+</carry_items>
